@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya:700,800&display=swap');
+
+$color-primary: #91E7B0; //green
+$color-secondary: #2C5D64; //dark green
+$font-stack: 'Alegreya', serif; 
+
+body {
+	background-color: $color-primary;
+	font: 100% $font-stack;
+	color: $color-secondary;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+
+}
+
+h1 {
+	font-size: 4rem;
+	line-height: 1;
+	margin: 0;
+	font-weight: 800;
+}
+
+p {
+	font-size: 2rem;
+	line-height: 1.25;
+	margin-top: 0;
+	margin-bottom: .25em;
+	font-weight: 700;
+}
+
+a {
+	font-size: 1rem;
+	color: $color-secondary;
+	text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+}
+
+.content {
+	margin: 1rem;
+}
